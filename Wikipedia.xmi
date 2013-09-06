@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ASCII"?>
+<UI:Layout xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:UI="fr.irisa.testK3/UI"
+    xsi:schemaLocation="fr.irisa.testK3/UI model/UI.ecore"
+    name="Main">
+  <elements
+      xsi:type="UI:Layout"
+      name="Menu">
+    <elements
+        xsi:type="UI:Layout"
+        name="Accueil"
+        vertical="true">
+      <elements
+          xsi:type="UI:Button"
+          text="Accueil"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Portails"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Index"/>
+    </elements>
+    <elements
+        xsi:type="UI:Layout"
+        name="Contribuer"
+        vertical="true">
+      <elements
+          xsi:type="UI:Button"
+          text="Premiers pas"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Aide"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Communaut&#xe9;"/>
+    </elements>
+    <elements
+        xsi:type="UI:Layout"
+        name="Outils"
+        vertical="true">
+      <elements
+          xsi:type="UI:Button"
+          text="Pages li&#xe9;es"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Suivi des pages li&#xe9;es"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Importer un fichier"/>
+    </elements>
+  </elements>
+  <elements
+      xsi:type="UI:Layout"
+      name="Corps">
+    <elements
+        xsi:type="UI:Layout"
+        name="Cat&#xe9;gories">
+      <elements
+          xsi:type="UI:Label"
+          text="Art"/>
+      <elements
+          xsi:type="UI:Label"
+          text="G&#xe9;ographie"/>
+      <elements
+          xsi:type="UI:Label"
+          text="Histoire"/>
+      <elements
+          xsi:type="UI:Label"
+          text="Science"/>
+      <elements
+          xsi:type="UI:Label"
+          text="Soci&#xe9;t&#xe9;"/>
+    </elements>
+    <elements
+        xsi:type="UI:Layout"
+        name="Lumi&#xe8;re sur"
+        vertical="true">
+      <elements
+          xsi:type="UI:Label"
+          text="L'&#xe9;quipe de Jama&#xef;que de football, surnomm&#xe9;e les &#xab; Reggae Boyz &#xbb;, est constitu&#xe9;e par "/>
+      <elements
+          xsi:type="UI:Label"
+          text="une s&#xe9;lection des meilleurs footballeurs jama&#xef;cains sous l'&#xe9;gide de la F&#xe9;d&#xe9;ration de "/>
+      <elements
+          xsi:type="UI:Label"
+          text="Jama&#xef;que de football et repr&#xe9;sente le pays lors des comp&#xe9;titions r&#xe9;gionales, continentales"/>
+      <elements
+          xsi:type="UI:Label"
+          text="et internationales."/>
+    </elements>
+    <elements
+        xsi:type="UI:Layout"
+        name="Actualit&#xe9;s"
+        vertical="true">
+      <elements
+          xsi:type="UI:Label"
+          text="21 ao&#xfb;t : en Syrie, l&#x2019;arm&#xe9;e syrienne libre rapporte la mort de plus d&#x2019;un millier de personnes, victimes de gaz de combat."/>
+      <elements
+          xsi:type="UI:Label"
+          text="20 ao&#xfb;t : en &#xc9;gypte, Mohammed Badie (photo), guide supr&#xea;me des Fr&#xe8;res musulmans, est arr&#xea;t&#xe9;."/>
+      <elements
+          xsi:type="UI:Label"
+          text="19 ao&#xfb;t : de violentes inondations causent la mort de 85 personnes dans le nord de la Chine et dans l&#x2019;est de la Russie."/>
+    </elements>
+  </elements>
+</UI:Layout>

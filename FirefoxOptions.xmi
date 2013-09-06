@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ASCII"?>
+<UI:Layout xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:UI="fr.irisa.testK3/UI"
+    xsi:schemaLocation="fr.irisa.testK3/UI model/UI.ecore"
+    name="Fen&#xea;tre">
+  <elements
+      xsi:type="UI:Layout"
+      name="Onglets">
+    <elements
+        xsi:type="UI:Layout"
+        name="Onglets 1">
+      <elements
+          xsi:type="UI:Button"
+          text="G&#xe9;n&#xe9;ral"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Onglets"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Contenu"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Applications"/>
+    </elements>
+    <elements
+        xsi:type="UI:Layout"
+        name="Onglets 2">
+      <elements
+          xsi:type="UI:Button"
+          text="Vie priv&#xe9;e"/>
+      <elements
+          xsi:type="UI:Button"
+          text="S&#xe9;curit&#xe9;"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Sync"/>
+      <elements
+          xsi:type="UI:Button"
+          text="Avanc&#xe9;"/>
+    </elements>
+  </elements>
+  <elements
+      xsi:type="UI:Layout"
+      name="Corps">
+    <elements
+        xsi:type="UI:Layout"
+        name="D&#xe9;marrage">
+      <elements
+          xsi:type="UI:Layout"
+          name="Au d&#xe9;marrage">
+        <elements
+            xsi:type="UI:Label"
+            text="Au d&#xe9;marrage de Firefox : "/>
+        <elements
+            xsi:type="UI:Button"
+            text="Afficher ma page d'accueil"/>
+      </elements>
+      <elements
+          xsi:type="UI:Layout"
+          name="Page d'accueil">
+        <elements
+            xsi:type="UI:Layout"
+            name="D&#xe9;finition page d'accueil">
+          <elements
+              xsi:type="UI:Label"
+              text="Page d'accueil : "/>
+          <elements
+              xsi:type="UI:InputBox"
+              capacity="30"/>
+        </elements>
+        <elements
+            xsi:type="UI:Layout"
+            name="Gestion page d'accueil">
+          <elements
+              xsi:type="UI:Button"
+              text="Pages courantes"/>
+          <elements
+              xsi:type="UI:Button"
+              text="Marque-page ..."/>
+          <elements
+              xsi:type="UI:Button"
+              text="Restaurer la configuration par d&#xe9;faut"/>
+        </elements>
+      </elements>
+    </elements>
+    <elements
+        xsi:type="UI:Layout"
+        name="T&#xe9;l&#xe9;chargements">
+      <elements
+          xsi:type="UI:Layout"
+          name="Enregistrer">
+        <elements
+            xsi:type="UI:Label"
+            text="Enregistrer les fichiers dans le dossier"/>
+        <elements
+            xsi:type="UI:InputBox"
+            capacity="30"/>
+        <elements
+            xsi:type="UI:Button"
+            text="Parcourir ..."/>
+      </elements>
+      <elements
+          xsi:type="UI:Layout"
+          name="Demander">
+        <elements
+            xsi:type="UI:Label"
+            text="Toujours demander o&#xf9; enregistrer les fichiers"/>
+      </elements>
+    </elements>
+  </elements>
+  <elements
+      xsi:type="UI:Layout"
+      name="Confirmation">
+    <elements
+        xsi:type="UI:Button"
+        text="OK"/>
+    <elements
+        xsi:type="UI:Button"
+        text="Annuler"/>
+    <elements
+        xsi:type="UI:Button"
+        text="Aide"/>
+  </elements>
+</UI:Layout>

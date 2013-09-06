@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<UI:Layout xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:UI="fr.irisa.testK3/UI"
+    xsi:schemaLocation="fr.irisa.testK3/UI model/UI.ecore"
+    name="Window"
+    vertical="true">
+  <elements
+      xsi:type="UI:Layout"
+      name="Corps">
+    <elements
+        xsi:type="UI:Label"
+        text="Enter your name"/>
+    <elements
+        xsi:type="UI:InputBox"
+        capacity="20"/>
+  </elements>
+  <elements
+      xsi:type="UI:Layout"
+      name="Validate">
+    <elements
+        xsi:type="UI:Button"
+        text="OK"/>
+    <elements
+        xsi:type="UI:Button"
+        text="Cancel"/>
+  </elements>
+</UI:Layout>
